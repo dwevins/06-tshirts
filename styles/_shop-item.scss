@@ -1,4 +1,7 @@
 .shop-item {
+  display: flex;
+  flex-direction: column;
   border: 0.1rem solid $brand-primary;
   width: 30%;
+
 }
