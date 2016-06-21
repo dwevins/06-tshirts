@@ -16,8 +16,4 @@ $max-content-width: 60rem;
 @import 'font-awesome';
 @import 'box-sizing';
 @import 'resets';
-
-.shop-item {
-  border: 0.1rem solid $brand-primary;
-  width: 30%;
-}
+@import 'shop-item'
