@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: 0.1rem solid $brand-primary;
   width: 30%;
 
   &__shirt {
@@ -14,7 +13,6 @@
   }
 
   &__info {
-    text-align: center;
     word-wrap: normal;
     &--title {
 
@@ -28,11 +26,9 @@
   &__buttons{
     display: flex;
     flex-direction: row;
-    list-style: none;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
-  }
-  .dropdown {
-    display: none;
+    padding: 0;
   }
 }

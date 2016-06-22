@@ -11,9 +11,15 @@ $green: #7abe93;
 $yellow: #e5b178;
 $gutter: 1rem;
 $max-content-width: 60rem;
+$border_common: 0.2rem solid $brand-primary;
 
 ///imports
 @import 'font-awesome';
 @import 'box-sizing';
 @import 'resets';
 @import 'shop-item';
+@import 'border-rules';
+@import 'font-rules';
+@import 'image-rules';
+@import 'popup-menu-rules';
+@import 'media-queries';

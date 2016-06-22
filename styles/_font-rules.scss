@@ -1,0 +1,9 @@
+.shop-item {
+  color: $brand-primary;
+  font-family: sans-serif;
+  text-align: center;
+
+  &__buttons {
+    list-style: none;
+  }
+}
