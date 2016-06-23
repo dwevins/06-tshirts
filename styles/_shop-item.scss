@@ -7,7 +7,12 @@
   border: $border-common;
 
   &__shirt {
+    width: 100%;
     padding: $gutter;
+
+    &--img {
+      width: 100%;
+    }
   }
 
   &__info {
@@ -21,6 +26,15 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 0;
     padding: 0;
+    border-top: $border-common;
   }
+}
+
+.shop-button {
+  flex-basis: 20%;
+  height: 100%;
+  font-size: 1rem;
+  padding: 0.1rem;
 }
