@@ -1,11 +1,30 @@
-.dropdown {
-  display: none;
+.dropdown__options {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .dropdown__options {
   :hover {
     .dropdown {
-      display: block;
+      // display: flex;
     }
+  }
+}
+
+.dropdown__item {
+  &-shirt-color-pink {
+    color: $pink;
+  }
+
+  &-shirt-color-blue {
+    color: $blue;
+  }
+
+  &-shirt-color-yellow {
+    color: $yellow;
+  }
+
+  &-shirt-color-green {
+    color: $green;
   }
 }
