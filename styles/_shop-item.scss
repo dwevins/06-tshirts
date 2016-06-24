@@ -1,15 +1,10 @@
-.grid-item {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
 .shop-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   width: 30%;
+  margin: $gutter;
 
   &__shirt {
     width: 100%;
@@ -36,6 +31,7 @@
 
   &__buttons {
     display: flex;
+    flex-basis: 10%;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;

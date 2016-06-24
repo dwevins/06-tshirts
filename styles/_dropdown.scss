@@ -1,7 +1,11 @@
 .dropdown {
   display: none;
+}
 
-  &:hover {
-    display: block;
+.dropdown__options {
+  :hover {
+    .dropdown {
+      display: block;
+    }
   }
 }
