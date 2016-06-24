@@ -1,14 +1,28 @@
-.dropdown__options {
-  display: flex;
-  flex-direction: row-reverse;
-}
 
 .dropdown__options {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
   :hover {
     .dropdown {
       // display: flex;
     }
   }
+}
+
+.dropdown {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .dropdown__item {
