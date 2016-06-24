@@ -4,11 +4,16 @@
   align-items: center;
   justify-content: flex-start;
   width: 30%;
-  border: $border-common;
 
   &__shirt {
     width: 100%;
+    margin: 0%;
     padding: $gutter;
+    border-top: $border-common;
+    border-right: $border-common;
+    border-left: $border-common;
+
+
 
     &--img {
       width: 100%;
@@ -16,25 +21,32 @@
   }
 
   &__info {
+    margin: 0;
     padding: $gutter;
+    border-right: $border-common;
+    border-left: $border-common;
     word-wrap: normal;
   }
 
   &__buttons {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 0;
+    margin: 0;
     padding: 0;
     border-top: $border-common;
+    border-right: $border-common;
+    border-bottom: $border-common;
   }
 }
 
 .shop-button {
+  display: flex;
   flex-basis: 20%;
-  height: 100%;
-  font-size: 1rem;
-  padding: 0.1rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0.5rem;
+  border-left: $border-common;
+
 }
