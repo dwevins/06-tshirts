@@ -73,4 +73,11 @@
       font-size: 1.5rem;
     }
   }
+
+  &-option-item-s {
+    &:hover {
+      flex-basis: 40%;
+      font-size: 1.5rem;
+    }
+  }
 }
