@@ -12,10 +12,6 @@
   border-right: $border-common;
   border-left: $border-common;
   background: $brand-white;
-
-  &:last-child {
-    border-bottom: 0;
-  }
 }
 
 .dropdown__options {
@@ -25,6 +21,11 @@
   width: 100%;
   margin: 0;
   padding: 0;
+
+  &:hover {
+    background: $brand-primary;
+    color: $brand-white;
+  }
 }
 
 .dropdown-button {
@@ -75,6 +76,8 @@
   }
 
   &-option-item-s {
+    color: $brand-primary;
+
     &:hover {
       flex-basis: 40%;
       font-size: 1.5rem;
@@ -82,6 +85,8 @@
   }
 
   &-option-item-m {
+    color: $brand-primary;
+
     &:hover {
       flex-basis: 40%;
       font-size: 1.5rem;
@@ -89,6 +94,8 @@
   }
 
   &-option-item-l {
+    color: $brand-primary;
+
     &:hover {
       flex-basis: 40%;
       font-size: 1.5rem;
@@ -96,6 +103,8 @@
   }
 
   &-option-item-xl {
+    color: $brand-primary;
+
     &:hover {
       flex-basis: 40%;
       font-size: 1.5rem;
