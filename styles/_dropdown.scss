@@ -1,4 +1,3 @@
-
 .dropdown {
   display: flex;
   position: absolute;
@@ -14,6 +13,9 @@
   border-left: $border-common;
   background: $brand-white;
 
+  &:last-child {
+    border-bottom: 0;
+  }
 }
 
 .dropdown__options {
@@ -25,22 +27,50 @@
   padding: 0;
 }
 
+.dropdown-button {
+  display: flex;
+  flex-basis: 25%;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom: $border-common;
+}
 
 .dropdown__item {
 
   &-shirt-color-pink {
     color: $pink;
+
+    &:hover {
+      flex-basis: 40%;
+      font-size: 1.5rem;
+    }
   }
 
   &-shirt-color-blue {
     color: $blue;
+
+    &:hover {
+      flex-basis: 40%;
+      font-size: 1.5rem;
+    }
   }
 
   &-shirt-color-yellow {
     color: $yellow;
+
+    &:hover {
+      flex-basis: 40%;
+      font-size: 1.5rem;
+    }
   }
 
   &-shirt-color-green {
     color: $green;
+
+    &:hover {
+      flex-basis: 40%;
+      font-size: 1.5rem;
+    }
   }
 }
