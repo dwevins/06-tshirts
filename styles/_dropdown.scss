@@ -4,21 +4,16 @@
   position: relative;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   margin: 0;
   padding: 0;
-
-  :hover {
-    .dropdown {
-      // display: flex;
-    }
-  }
 }
 
 .dropdown {
-  display: flex;
+  display: none;
   position: absolute;
+  top: 1rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
