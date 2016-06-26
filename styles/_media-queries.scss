@@ -2,16 +2,42 @@
 
   .grid-item {
     flex-direction: column;
+    align-items: center;
+    width: 100vw;
   }
 
   .shop-item {
     flex-direction: row;
-    width: 70%;
+    width: 50vw;
+    height: 40vh;
+
+    &__shirt {
+      width: 45%;
+    }
 
     &__buttons {
-      flex-basis: 100%;
       flex-direction: column;
-      width: 10%;
+      height: 100%;
     }
+  }
+
+  .dropdown {
+    bottom: 0;
+    right: 2.4rem;
+    flex-direction: row;
+    width: 500%;
+    height: 100%;
+    border-right: 0;
+    border-bottom: $border-common;
+  }
+
+  .dropdown-button {
+    height: 100%;
+    border-right: $border-common;
+    border-bottom: 0;
+  }
+
+  .dropdown__options {
+    flex-direction: column-reverse;
   }
 }
