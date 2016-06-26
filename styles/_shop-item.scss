@@ -5,16 +5,15 @@
   justify-content: flex-start;
   width: 30%;
   margin: $gutter;
+  border: $border-common;
 
   &__shirt {
     width: 100%;
     margin: 0%;
     padding: $gutter;
-    border-top: $border-common;
-    border-right: $border-common;
-    border-left: $border-common;
-
-
+    // border-top: $border-common;
+    // border-right: $border-common;
+    // border-left: $border-common;
 
     &--img {
       width: 100%;
@@ -23,8 +22,8 @@
 
   &__info {
     margin: 0;
-    border-right: $border-common;
-    border-left: $border-common;
+    // border-right: $border-common;
+    // border-left: $border-common;
     word-wrap: normal;
   }
 
@@ -37,8 +36,8 @@
     margin: 0;
     padding: 0;
     border-top: $border-common;
-    border-right: $border-common;
-    border-bottom: $border-common;
+    // border-right: $border-common;
+    // border-bottom: $border-common;
   }
 }
 
@@ -48,5 +47,6 @@
   align-items: center;
   justify-content: center;
   padding: 0.4rem 0.5rem;
-  border-left: $border-common;
+  // border-left: $border-common;
+
 }

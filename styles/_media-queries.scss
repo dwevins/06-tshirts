@@ -1,0 +1,17 @@
+@media screen and (max-width: 60rem) {
+
+  .grid-item {
+    flex-direction: column;
+  }
+
+  .shop-item {
+    flex-direction: row;
+    width: 70%;
+
+    &__buttons {
+      flex-basis: 100%;
+      flex-direction: column;
+      width: 10%;
+    }
+  }
+}
