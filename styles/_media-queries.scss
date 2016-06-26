@@ -1,4 +1,4 @@
-@media screen and (max-width: 60rem) {
+@media screen and (min-width: 35rem) and (max-width: 60rem) {
 
   .grid-item {
     flex-direction: column;
@@ -9,10 +9,14 @@
   .shop-item {
     flex-direction: row;
     width: 50vw;
-    height: 40vh;
+    height: 30vh;
 
     &__shirt {
       width: 50%;
+    }
+
+    &__info {
+      margin: $gutter 0;
     }
 
     &__buttons {
@@ -37,7 +41,7 @@
   }
 
   .dropdown {
-    right: 2rem;
+    right: 100%;
     bottom: 0;
     flex-direction: row;
     width: 500%;
@@ -54,5 +58,12 @@
 
   .dropdown__options {
     flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 35rem) {
+
+  .shop-item {
+    width: 100%;
   }
 }

@@ -23,13 +23,21 @@ html {
 .container {
   display: flex;
   flex-direction: column;
-  width: 60rem;
+  flex-wrap: wrap;
+  max-width: 60rem;
   margin: 0 auto;
 }
 
 .grid-item {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
