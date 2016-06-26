@@ -12,18 +12,33 @@
     height: 40vh;
 
     &__shirt {
-      width: 45%;
+      width: 50%;
     }
 
     &__buttons {
       flex-direction: column;
       height: 100%;
+      border-top: 0;
+      border-left: $border-common;
+    }
+  }
+
+  .shop-button {
+    border-bottom: $border-common;
+    border-left: 0;
+
+    &:first-child {
+      border-bottom: $border-common;
+    }
+
+    &:last-child {
+      border: 0;
     }
   }
 
   .dropdown {
+    right: 2rem;
     bottom: 0;
-    right: 2.4rem;
     flex-direction: row;
     width: 500%;
     height: 100%;
