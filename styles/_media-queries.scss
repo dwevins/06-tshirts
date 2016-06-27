@@ -65,7 +65,13 @@
 
 @media screen and (max-width: 414px) {
 
+  .grid-item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .shop-item {
-    width: 100%;
+    max-width: 100%;
   }
 }
