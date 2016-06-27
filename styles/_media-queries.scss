@@ -1,0 +1,84 @@
+@media screen and (min-width: 414px) and (max-width: 768px) {
+
+  .grid-item {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  .shop-item {
+    flex-direction: row;
+    align-items: stretch;
+    max-width: 90%;
+
+    &__shirt {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+    }
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__buttons {
+      flex-direction: column;
+      border-top: 0;
+      border-left: $border-common;
+    }
+  }
+
+  .shop-button {
+    border-bottom: $border-common;
+    border-left: 0;
+
+    &:first-child {
+      border-bottom: $border-common;
+    }
+
+    &:last-child {
+      border: 0;
+    }
+  }
+
+  .dropdown {
+    right: 100%;
+    bottom: 0;
+    flex-direction: row;
+    width: 500%;
+    height: 100%;
+    border-right: 0;
+    border-bottom: $border-common;
+  }
+
+  .dropdown-button {
+    height: 100%;
+    border-right: $border-common;
+    border-bottom: 0;
+  }
+
+  .dropdown__options {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 414px) {
+
+  .grid-item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shop-item {
+    max-width: 100%;
+  }
+}

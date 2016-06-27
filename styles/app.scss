@@ -1,6 +1,23 @@
-// @import 'yoga';
-// @import 'normalize';
+//include font awesome icons
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+//(.shirt-item>.shirt-item__image+.shirt-item__text>(h1.shirt-item__text--header{T-Shirts}+p.shirt-item__text--description{Made of fresh All-American cotton and some other stuff.})+.shirt-item__icon-box)*9
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+//variables
+$brand-primary: #3473b5;
+$brand-white: #fff;
+$pink: #e577aa;
+$blue: #72bbe9;
+$green: #7abe93;
+$yellow: #e5b178;
+$gutter: 1rem;
+$max-content-width: 60rem;
+$border-common: 0.2rem solid $brand-primary;
+$max-content-width: 60rem;
+
+///imports
+@import 'font-awesome';
 @import 'box-sizing';
+@import 'resets';
+@import 'shop-item';
+@import 'dropdown';
+@import 'media-queries';
